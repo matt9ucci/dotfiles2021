@@ -1,3 +1,8 @@
+if [ -f /etc/os-release ]; then
+	. /etc/os-release
+	export OSNAME=$NAME
+fi
+
 # ignorespace and ignoredups
 HISTCONTROL=ignoreboth
 HISTSIZE=1000
