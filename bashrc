@@ -21,10 +21,3 @@ alias la='ll -A'
 # -p, --parents: make parent dirs
 # -v, --verbose
 alias mkdir='mkdir -pv'
-
-alias sl='cd'
-alias sl..='cd ..'
-alias sl...='cd ../..'
-
-alias g='git'
-
